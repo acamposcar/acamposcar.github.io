@@ -1,13 +1,37 @@
 html{
 
-	background: url(background2.jpg) no-repeat center fixed;
+/*	background: url(background2.jpg) no-repeat center fixed;
   	-webkit-background-size: cover;
  	-moz-background-size: cover;
  	-o-background-size: cover;
- 	background-size: cover;
+ 	background-size: cover;*/
  	text-align: center;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+img{
+	 /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1920px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1920px) { /* Specific to this particular image */
+  img{
+    left: 50%;
+    margin-left: -920px;   /* 50% */
+  }
 }
 
 .me{
