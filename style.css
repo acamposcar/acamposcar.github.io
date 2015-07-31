@@ -132,8 +132,8 @@ footer{
 	font-weight: 400;   
 	font-size: 14px;
 	background-color: black;
-	margin-right: -10px;
-	margin-left: -10px;
+	margin-right: -5px;
+	margin-left: -8px;
 	opacity: 0.3;
 }
 
@@ -144,8 +144,6 @@ footer{
 
 		/* Basic */
 
-			body, input, select, textarea {
-				font-size: 12pt;
 			}
 
 
@@ -169,10 +167,11 @@ footer{
 			}
 			nav{
 				margin-top: 1.5rem;
+				margin-left: -25px;
 			}
 			.header:before {
 
-	height: 25%;
+			height: 10%;
 
 }
 			}
