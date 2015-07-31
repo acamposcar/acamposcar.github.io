@@ -1,2 +1,0 @@
-# acamposcar.github.io
----------
