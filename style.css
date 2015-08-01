@@ -183,16 +183,18 @@ footer{
  	}
 }
 
+/*MOVIL HORIZONTAL*/
 
 @media screen and (max-width: 730px) {
 
 	.header:before {
-		height: 1%;
+		height: 25%;
 	}
 
 	h1 {
 		font-size:2rem;
 		margin-bottom: 10px;
+		margin-top: -85px;
 	}
 	
 	p {
@@ -220,12 +222,14 @@ footer{
 @media screen and (max-width: 570px) {
 
 	.header:before {
-		height: 1%;
+		height: 25%;
+
 	}
 
 	h1 {
 		font-size:2rem;
 		margin-bottom: 10px;
+
 	}
 	
 	p {
@@ -255,7 +259,7 @@ footer{
 @media screen and (max-width: 475px) {
 
 	.header:before {
-		height: 1%;
+		height: 25%;
 	}
 			
 	h1 {
@@ -304,7 +308,7 @@ footer{
 @media screen and (max-width: 475px) {
 
 	.header:before {
-		height: 1%;
+		height: 25%;
 	}
 			
 	h1 {
@@ -353,7 +357,7 @@ footer{
 @media screen and (max-width: 410px) {
 
 	.header:before {
-		height: 1%;
+		height: 25%;
 	}
 			
 	h1 {
@@ -403,7 +407,7 @@ footer{
 @media screen and (max-width: 360px) {
 
 	.header:before {
-		height: 1%;
+		height: 25%;
 	}
 			
 	h1 {
@@ -452,7 +456,7 @@ footer{
 @media screen and (max-width: 310px) {
 
 	.header:before {
-		height: 1%;
+		height: 25%;
 	}
 			
 	h1 {
